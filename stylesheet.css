@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+}
+
+li:hover {
+    opacity: 0.7;
+}
+
+header {
+    background-color: #26d0c9;
+    height: 90px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    font-size: 35px;
+    padding: 20px 40px;
+}
+
+header ul {
+    float: right;
+}
