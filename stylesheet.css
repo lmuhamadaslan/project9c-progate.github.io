@@ -5,8 +5,8 @@
 }
 
 a {
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 li {
@@ -20,9 +20,14 @@ li:hover {
 }
 
 header {
-    background-color: #26d0c9;
+    background-color: #239b76;
     height: 90px;
 }
+
+.header-list ul {
+    margin-right: 180px;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -31,9 +36,64 @@ header {
 header h1 {
     float: left;
     font-size: 35px;
-    padding: 20px 40px;
+    padding: 20px 180px;
 }
 
 header ul {
     float: right;
 }
+
+/* Main */
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* .top-wrapper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 143, 119, .6);
+} */
+
+.top-wrapper h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    color: white;
+    z-index: 10;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+
+.btn:hover {
+    opacity: 1;
+}
+
+.mulai {
+    background-color: #239b76;
+    z-index: 1 ;
+}
+
+/* footer */
