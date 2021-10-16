@@ -1,102 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelompok 9C</title>
+    <title>Progate</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- Header -->
     <header>
-        <div class="header-logo">
-            <h1><a href="index.html">Kelompok 9C</a></h1>
-        </div>
-        <div class="header-list">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profil</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <!-- Bagian Main -->
-    <div class="top-wrapper">
         <div class="container">
-            <h1>SELAMAT DATANG DI WEBSITE KELOMPOK 9C</h1>
-            <div class="btn-wrapper">
-                <a href="#" class="btn mulai">Kunjungi Profil</a>
+            <div class="header-left">
+                <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+            </div>
+            <!-- Tambahkan ikon menu disini -->
+            <span class="fa fa-bars menu-icon"></span>
+            <div class="header-right">
+                <a href="#">Home</a>
+                <a href="#">Profil</a>
+                <a href="#" class="login">Log in</a>
             </div>
         </div>
-    </div>
-
-    <!-- Bagian Body -->
-    <div class="tentang">
+    </header>
+    <div class="top-wrapper">
         <div class="container">
-            <h2>About</h2>
-            <p> Hai perkenalkan kami dari Kelompok 9C telah menyelesaikan proyek kelompok yaitu membuat halaman web yang
-                berisi tentang profil kami. Kalimat mutiara dari kami adalah <strong>"Cukuplah programming saja yang
-                    sering
-                    error, namun jangan sampai otak kita ikutan error juga. Semangat!"</strong>, Berikut ini adalah
-                profil dari
-                masing masing anggota dari tim kami</p>
+            <h1>SELAMAT DATANG.</h1>
+            <h1>DI WEBSITE KELOMPOK 9C.</h1>
+            <p>Progate adalah platform online untuk belajar coding.</p>
+            <p>Kami adalah salah satu dari sekian banyak kelompok, yang mengikuti program studi independen Digital
+                Leadership Through coding Progate.</p>
+            <div class="btn-wrapper">
+                <a href="#" class="btn mulai">Lihat Profil</a>
+            </div>
         </div>
     </div>
     <div class="lesson-wrapper">
         <div class="container">
             <div class="heading">
-                <h2>Profil TIM</h2>
+                <h2>Profil</h2>
             </div>
             <div class="lessons">
                 <div class="lesson">
                     <div class="lesson-icon">
                         <img src="img/aslan.jpeg">
                     </div>
-                    <p class="txt-contents">La Ode Muhamad Aslan (Teknik Elektro)
+                    <p class="text-contents">La Ode Muhamad Aslan (Teknik Elektro).
                     </p>
-                </div>
-                <div class="lesson">
-                    <div class="lesson-icon">
-                        <img src="img/a.jpeg">
-                    </div>
-                    <p class="txt-contents">Kurrata Aeni (Sistem Informasi)</p>
                 </div>
                 <div class="lesson">
                     <div class="lesson-icon">
                         <img src="img/ken.jpg">
                     </div>
-                    <p class="txt-contents">Ken Putri Virta Zaneta (Psikologi)</p>
+                    <p class="text-contents">Ken Putri Virta Zaneta (Psikologi).</p>
                 </div>
                 <div class="lesson">
                     <div class="lesson-icon">
                         <img src="img/lymin.jpeg">
                     </div>
-                    <p class="txt-contents">Lymin (Teknik Informatika)</p>
+                    <p class="text-contents">Lymin (Teknik Informatika).</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="img/a.jpeg">
+                    </div>
+                    <p class="text-contents">Kurrata Aeni (Sistem Informasi).</p>
                 </div>
                 <div class="lesson">
                     <div class="lesson-icon">
                         <img src="img/krisna.jpeg">
                     </div>
-                    <p class="txt-contents">Krisna Aldi (Bimbingan dan Konseling</p>
+                    <p class="text-contents">Krisna Aldi (Bimbingan dan Konseling).</p>
                 </div>
+                <div class="clear"></div>
             </div>
         </div>
     </div>
-    <!-- footer -->
-    <div class="footer">
-        <footer>
-            <div class="container">
-                <small>Copyright &copy; 2020 - Kelompok 9C. All Rights Reserved.</small>
+    <div class="contact-form">
+        <h3 class="section-title">Hubungi kami</h3>
+        <p>Email (Wajib Diisi)</p>
+        <input>
 
-            </div>
-        </footer>
+        <p>Pesan (Wajib Diisi)</p>
+        <textarea></textarea>
+
+        <p>*Bidang Wajib Diisi</p>
+        <input class="contact-submit" type="submit" value="Kirim">
+
     </div>
+    <footer>
+        <div class="container">
+            <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+            <p>Learn to code, learn to be creative.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
